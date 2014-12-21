@@ -1,5 +1,5 @@
-## make CacheMatrix and cacheSolve aim to cache time-consuming matrix inversion computations
-## Theh goal is to cache the inverse of a matrix the first time it is computed
+## cacheMatrix and cacheSolve aim to cache time-consuming matrix inversion computations
+## The goal is to cache the inverse of a matrix the first time it is computed
 ## and draw upon the cached value in future computations rather than compute it repeatedly
 
 ## makeCacheMatrix will create a special "matrix" object that can cache its inverse
